@@ -3,9 +3,9 @@ entries:
   http-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-09T15:18:34.892673-07:00"
+    created: "2020-04-09T15:30:56.700075-07:00"
     description: A Helm chart for creating HTTP apis
-    digest: 8a78878bc82ece1bd838b83f96f9a42003c20049c8a7960f735fbe120202b330
+    digest: 6d377ea53d8f2a1a19c477c0a43a59649b3be86e136ddf570fcc727e9bfdfa16
     name: http-api
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   http-api-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-09T15:18:34.893515-07:00"
+    created: "2020-04-09T15:30:56.70299-07:00"
     description: A Helm chart for creating HTTP Apis K8s operator
     digest: 81a97e9342223732351d52eea0124081d0c67a3bc173f504ac6b0e44dec39ab4
     name: http-api-operator
@@ -22,4 +22,4 @@ entries:
     urls:
     - https://vijtrip2.github.io/helm-charts/http-api-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-09T15:18:34.891824-07:00"
+generated: "2020-04-09T15:30:56.69839-07:00"
