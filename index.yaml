@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  http-api-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-09T13:25:35.412602-07:00"
+    description: A Helm chart for HTTP Apis K8s demo
+    digest: 0a6b2bc9b04398a50f9774a74777a1dab133232eb67aceabf06b15a228c810e1
+    name: http-api-chart
+    type: application
+    urls:
+    - https://vijtrip2.github.io/helm-charts/http-api-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-09T13:25:35.411014-07:00"
