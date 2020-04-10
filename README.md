@@ -26,4 +26,4 @@ The role and service account should match the role and trust relationship you se
 
 * To install K8s dashboard, run
 ```helm install k8s-dashboard http-api-helm-charts/k8s-dashboard ```
-and follow the instruction in notes.
+and follow the instruction in output.
