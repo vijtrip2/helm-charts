@@ -1,7 +1,8 @@
 # helm-charts
-This repo consist of 2 helm charts.
+This repo consist of 3 helm charts.
 * http-api-operator for launching an http-api-operator and a nginx server.
 * http-api for creating 2 HTTP apis.
+* k8s-dashboard for visualizing the k8s resources on a UI.
 
 # Runbook
 In the following commands replace the ```<variable names>``` with your own variable names.
@@ -22,3 +23,7 @@ The role and service account should match the role and trust relationship you se
 
 * To upgrade the integration endpoint on nginx-proxy api, run
 ```helm upgrade <http-api> <http-api-helm-charts>/http-api --set integrationUri=<https://aws.amazon.com/>```
+
+* To install K8s dashboard, run
+```helm install k8s-dashboard http-api-helm-charts/k8s-dashboard ```
+and follow the instruction in notes.
