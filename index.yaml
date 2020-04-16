@@ -3,9 +3,9 @@ entries:
   http-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-10T13:01:38.180921-07:00"
+    created: "2020-04-15T22:44:45.648713-07:00"
     description: A Helm chart for creating HTTP apis
-    digest: 349b5341033bb7c46964c5c0200be9755ddac5cf0149b7e6551371c9468d0731
+    digest: 0a3626efce1ead22957814b8e6f9e739a1a5dc04c8fd5f1e95f47ca86fef102a
     name: http-api
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   http-api-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-10T13:01:38.190479-07:00"
+    created: "2020-04-15T22:44:45.651423-07:00"
     description: A Helm chart for creating HTTP Apis K8s operator
-    digest: 65722818f43d6526e4910351c133d25ed87216d1b2af862a73fbc909ab26e1b1
+    digest: 84528553a4c3e6a2524fee65a3af9bcacadf2ba08c4c30e6722c1aa8d13c43ee
     name: http-api-operator
     type: application
     urls:
@@ -25,12 +25,23 @@ entries:
   k8s-dashboard:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-10T13:01:38.191685-07:00"
+    created: "2020-04-15T22:44:45.655682-07:00"
     description: A Helm chart for creating K8s dashboard
-    digest: c56c5253c00555ca02150cd33d0529121952296df3c33bcba9bb1340e73ff617
+    digest: e862cb33cbf9b271e07aefa04511e4c94f265834f011203bb67f5231968fadc3
     name: k8s-dashboard
     type: application
     urls:
     - https://vijtrip2.github.io/helm-charts/k8s-dashboard-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-10T13:01:38.179519-07:00"
+  vpclink:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-15T22:44:45.65677-07:00"
+    description: A Helm chart for creating vpcLink resource of HTTP api.
+    digest: 57aafa9e7c711be280591490c9acf40623d5f212ecc84b565928d50392b450b2
+    name: vpclink
+    type: application
+    urls:
+    - https://vijtrip2.github.io/helm-charts/vpclink-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-15T22:44:45.647633-07:00"
